@@ -10,7 +10,7 @@ Build a machine learning model using Apache Spark's MLlib to predict air pressur
 
 - Use MLlib of Apache Spark to build a machine learning model that predicts the air pressure based on geographical parameters and weather conditions.
     - Download the dataset from [https://www.ncei.noaa.gov/data/global-hourly/archive/csv/2023.tar.gz](https://www.ncei.noaa.gov/data/global-hourly/archive/csv/2023.tar.gz), whose documentation can be found at [https://www.ncei.noaa.gov/data/global-hourly/doc/](https://www.ncei.noaa.gov/data/global-hourly/doc/).
-    - Build machine learning models to predict the column PRESSURE by using other columns including LATITUDE, LONGITUDE, ELEVATION, WIND_DIRECTION, WIND_SPEED, CEILING_HEIGHT, VISIBILITY, AIR_TEMPERATURE and DEW_POINT_TEMPERATURE. Note that the csv files contain missing data, which must be removed before training. The missing data are denoted using some special values described in the documentation.
+    - Build machine learning models to predict the column PRESSURE by using other columns including `LATITUDE`, `LONGITUDE`, `ELEVATION`, `WIND_DIRECTION`, `WIND_SPEED`, `CEILING_HEIGHT`, `VISIBILITY`, `AIR_TEMPERATURE` and `DEW_POINT_TEMPERATURE`. Note that the csv files contain missing data, which must be removed before training. The missing data are denoted using some special values described in the documentation.
     - During training, set the ratio of the training set and test set to 7:3. Use the validation tools provided by MLlib to find the best model. Print the training error and the test error on screen.
 
 ---
